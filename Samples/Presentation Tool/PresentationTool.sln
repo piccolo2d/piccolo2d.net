@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationTool", "Source\PresentationTool\PresentationTool.csproj", "{80C04038-40CE-4377-AE26-BD10C9B44ECE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideViewer", "Source\SlideViewer\SlideViewer.csproj", "{872157AE-C280-4A02-AAC6-631AB83BF076}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piccolo", "..\..\Source\Piccolo\Piccolo.csproj", "{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiccoloX", "..\..\Source\PiccoloX\PiccoloX.csproj", "{E4079B36-6A5D-42C2-8F20-6C0DD8780192}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{80C04038-40CE-4377-AE26-BD10C9B44ECE}.Debug.ActiveCfg = Debug|.NET
+		{80C04038-40CE-4377-AE26-BD10C9B44ECE}.Debug.Build.0 = Debug|.NET
+		{80C04038-40CE-4377-AE26-BD10C9B44ECE}.Release.ActiveCfg = Release|.NET
+		{80C04038-40CE-4377-AE26-BD10C9B44ECE}.Release.Build.0 = Release|.NET
+		{872157AE-C280-4A02-AAC6-631AB83BF076}.Debug.ActiveCfg = Debug|.NET
+		{872157AE-C280-4A02-AAC6-631AB83BF076}.Debug.Build.0 = Debug|.NET
+		{872157AE-C280-4A02-AAC6-631AB83BF076}.Release.ActiveCfg = Release|.NET
+		{872157AE-C280-4A02-AAC6-631AB83BF076}.Release.Build.0 = Release|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Debug.ActiveCfg = Debug|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Debug.Build.0 = Debug|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Release.ActiveCfg = Release|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Release.Build.0 = Release|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Debug.ActiveCfg = Debug|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Debug.Build.0 = Debug|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Release.ActiveCfg = Release|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

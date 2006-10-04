@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpCollection[]>
+<HelpCollection DTDVersion="1.0" FileVersion="1.2" LangId="1033" Title="Piccolo.NET" Copyright="Human-Computer Interaction Lab, University of Maryland, 2005">
+  <TOCDef File="Piccolo.NETCollection.HxT" />
+  <KeywordIndexDef File="Piccolo.NETCollection_K.HxK" />
+  <KeywordIndexDef File="Piccolo.NETCollection_F.HxK" />
+  <KeywordIndexDef File="Piccolo.NETCollection_A.HxK" />
+  <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="FTS" />
+  <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A" />
+  <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F" />
+  <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K" />
+  <ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData="" />
+  <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="" />
+</HelpCollection>

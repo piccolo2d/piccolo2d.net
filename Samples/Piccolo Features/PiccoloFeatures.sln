@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiccoloFeatures", "Source\PiccoloFeatures.csproj", "{40474732-7988-4B60-971D-4981C31CBA59}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piccolo", "..\..\Source\Piccolo\Piccolo.csproj", "{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiccoloX", "..\..\Source\PiccoloX\PiccoloX.csproj", "{E4079B36-6A5D-42C2-8F20-6C0DD8780192}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{40474732-7988-4B60-971D-4981C31CBA59}.Debug.ActiveCfg = Debug|.NET
+		{40474732-7988-4B60-971D-4981C31CBA59}.Debug.Build.0 = Debug|.NET
+		{40474732-7988-4B60-971D-4981C31CBA59}.Release.ActiveCfg = Release|.NET
+		{40474732-7988-4B60-971D-4981C31CBA59}.Release.Build.0 = Release|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Debug.ActiveCfg = Debug|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Debug.Build.0 = Debug|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Release.ActiveCfg = Release|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Release.Build.0 = Release|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Debug.ActiveCfg = Debug|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Debug.Build.0 = Debug|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Release.ActiveCfg = Release|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

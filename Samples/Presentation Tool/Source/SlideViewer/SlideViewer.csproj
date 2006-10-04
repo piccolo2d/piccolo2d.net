@@ -1,0 +1,212 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{872157AE-C280-4A02-AAC6-631AB83BF076}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "UMD.HCIL.SlideViewer"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "UMD.HCIL.SlideViewer"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "Piccolo"
+                    Project = "{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "PiccoloX"
+                    Project = "{E4079B36-6A5D-42C2-8F20-6C0DD8780192}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SlideViewer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Images\Slide1.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide10.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide11.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide12.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide13.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide14.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide15.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide16.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide17.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide18.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide19.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide2.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide20.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide21.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide22.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide3.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide4.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide5.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide6.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide7.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide8.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Slide9.PNG"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\up-arrow.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

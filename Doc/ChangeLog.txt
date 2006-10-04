@@ -1,0 +1,330 @@
+Piccolo.NET 1.2 ChangeLog
+------------------
+(December 6, 2005)
+
+Piccolo.NET/Source/Piccolo
+
+PNode
+	- added check for set Scale when Scale is 0
+	- added AnimateMatrixToBounds method
+	- changed all AnimateToXXX methods to occur instantly when duration is 0
+	- fixed Reparent bug
+	- added ToImage overload that takes backgroundBrush
+	- added ToImage overload that takes an image
+	- added FindIntersectingNodes
+	- fixed UnionOfChildren bug
+	- changed AnimateToBounds to call StartResizeBounds and EndResizeBounds
+	- added several new property events (VisibleChanged, BrushChanged, PickableChanged,
+	  ChildrenPickableChanged, ChildrenChanged, ParentChanged)
+	- added propertyChangeParentMask to decide if property change events should be forwarded to parent
+	- added property codes for each property event
+	- changed property event fire code to forward events up the node tree when needed
+	- added scene graph delegate calls for node bounds invalidated, paint invalidated
+
+PCamera
+	- added set accessor to ViewBounds
+	- added LayersChanged property event (and mask)
+	- added check for scaling view matrix by infinity
+	- added check for empty bounds case in AnimateViewToCenterBounds
+
+PRoot
+	- changed ScheduleProcessInputsIfNeeded to avoid update problems with multiple canvases
+	- changed ScheduleProcessInputsIfNeeded to check for null processScheduledInputsDelegate
+	- added InputSourcesChanged property event (and mask)
+
+PLayer
+	- added CamerasChanged property event (and mask)
+
+PPickPath
+	- added NextPickNode
+	- added CURRENT_PICK_PATH static variable
+
+PImage
+	- added ImageChanged property event (and mask)
+
+PPath
+	- added PenChanged property event (and mask)
+	- added Intersects overload that takes a Matrix
+	- override PickAfterChildren to pick in canvas coordinates if desired
+	- added PickMode property for more accurate picking
+	- added PathPickMode enum
+	- fixed case of setting bounds of vertical or horizontal lines
+
+PText
+	- fixed clipping bug
+	- fixed disappearing text bug
+	- added TextChanged and FontChanged property events (and masks)
+        - fixed text printing bug
+
+PMatrix
+	- added check for set Scale when Scale is 0
+
+PPaintContext
+	- changed RenderQuality to use PixelOffsetMode for more accurate image alignment
+	- changed PushTransform to PushMatrix
+
+PUtil
+	- added CAMERA_WITH_CANVAS_FILTER
+	- added NULL_OUTPUT_STREAM
+
+PStream
+	- changed to use NULL_OUTPUT_STREAM in first pass of serialization
+
+PInputEventArgs
+	- added SourceEventArgs property
+	- added Alt and Control properties
+
+PActivity
+	- added new terminate options
+
+PInterpolatingActivity
+	- in OnActivityFinished now set final target value before calling activity finished on delegate
+
+PCanvas
+	- changed InvalidateBounds to invalidate the union of the previous and current rectangles
+	- added RegionManagement property
+	- added WEB_DEPLOY to conditionally compile PCanvas for web
+	- fixed MouseDown bug
+	- added GridFitText property for higher quality text
+
+PDebug
+	- added accessor for processingOutput
+
+
+Piccolo.NET/Samples
+
+	- changed to reference Piccolo and PiccoloX projects, rather than DLLs
+	- restructured TabularFisheye, GraphEditor, and PresentationTool examples to extend
+	  PCanvas and make a reusable control
+	- added HierarchyZoomExample
+	- added BirdsEyeExample
+	- changed examples to not call base.Initialize() when unnecessary
+	- changed TabularFisheye example to use grid-fitted text.
+	- added CharLabelExample
+	- added NodeLinkExample
+	- fixed bug in presentation tool where clicking the marker would cause an exception
+	- restructured presentation tool to load default presentation
+
+GraphEditorDirect3D
+	- changed to use P3Path
+
+
+Piccolo.NET/Source/PiccoloX
+
+	- added PCacheCamera
+	- added PCacheCanvas
+
+PForm
+	- removed Layered Property
+	- added FullScreenMode accessor
+
+PSelectionEventHandler
+	- fixed coord system bug in UpdateMarquee
+
+PScrollableControl
+	- added MouseWheel support
+	- added AnimateScrollDuration
+	- added properties to control large and small change in view coordinates
+	  and deprecated old accessors
+	- added AutoLargeChangeFactor
+	- changed default large change from 1.0 to 0.9
+	- change small change behavior to be the same as large change
+	  (percentage of extent) rather than percentage of total content.	
+
+Piccolo.NET/Source/Piccolo Direct3D/
+
+	- changed to reference Piccolo and PiccoloX projects, rather than DLLs
+	- added P3Path
+	- added P3Text
+	- added Tesselator
+	- added TesselationVisitor
+	- fixed anti-aliasing bug
+
+P3Util
+	- added several utility methods for tesselation and measuring text
+
+P3Image
+	- fixed disappearing image bug
+	- several changes to match PImage API
+
+Direct3DTester
+	- updated to use new D3D nodes
+
+
+Piccolo.NET 1.1 Beta ChangeLog
+------------------
+(December 22, 2004)
+
+Piccolo.NET/Source/Piccolo
+
+	- many generalizations to support plugging in a different renderer
+
+PNode
+	- added GetUnionOfChildrenBounds overload to PNode that takes a PNodeFilter
+
+PDebug
+	- added DebugThreading property
+
+PInputManager
+	- fixed bug where drag and drop events weren't generated properly
+
+Piccolo.NET/Samples
+
+	- added RangeSlider
+	- added GraphEditorDirect3D
+
+Piccolo.NET/Source/PiccoloX
+
+	- added PControl
+	- added PControlEventHandler
+
+PForm
+	- changed to revert to its original non-fullscreen bounds when Escape is pressed
+	- changed to listen to the 'M' key in full-screen mode which minimizes the window
+
+PSelectionEventHandler
+	- changed BoundsFilter fields to protected
+
+PDefaultScrollDirector
+	- fixed bug that GetViewPosition didn't check for empty layerBounds
+
+PPositionPathActivity
+	- fixed bug that caused intermittent exception
+
+Piccolo.NET/Source/Piccolo Direct3D/
+
+	- added D3DNode
+	- added P3PaintContext
+	- added P3Util
+	- added P3Camera
+	- added P3Canvas
+	- added P3Form
+	- added P3Node
+	- added P3Image
+	- added P3Line
+	- added P3Rect
+	- added Direct3DTester
+
+
+Piccolo.NET 1.0
+------------------
+(August 1, 2004)
+
+Changed from Mozilla to BSD style license.
+
+Piccolo.NET/Source/Piccolo
+
+	- added PNodeList
+	- added PCameraList
+	- added PLayerList
+	- added PActivityList
+	- added MatrixSurrogate
+	- added GraphicsPathSurrogate
+	
+
+PInterpolatingActivity
+	- added terminate method
+	- added new constructor with startime parameter method
+
+PBasicInputEventHandler
+	- added OnGotFocus event method
+	- added OnLostFocus event method
+
+PDragSequenceEventHandler
+	- added DragActivity Accessor
+
+
+PPanEventHandler
+	- changed unit of autopan speed to pixels per second
+
+PPath
+	- added CreateLine method
+	- changed to InternalUpdateBounds to manage path bounds
+
+PText
+	- added greeking code
+	- added TextBrush property
+	- added TextAlignment property
+
+PCamera
+	- added AnimateViewToPanToBounds method
+	- added ViewConstraint property
+
+PCanvas
+	- added notification when interaction quality changes
+
+PInputManager
+	- fixed bug in the order that mouse entered and mouse moved events were delivered
+
+PNode
+	- added GlobalBounds method
+	- added MoveInFrontOf method
+	- added MoveInBackOf method
+	- added Occluded property
+	- added AnimateToColor method
+	- added CenterFullBoundsOnPoint method
+	- added FindIntersectingNodes method
+	- added InternalUpdateBounds method
+	- added IsOpaque method
+	- removed MoveToBack(PNode child) method
+	- removed MoveToFront(PNode child) method
+	- changed SetBounds to send InternalUpdateBounds message.
+	- changed IndexOfChild to check for case of null child
+	- changed FullPick method to check of PPickPath accepts this node
+	- fixed various update bugs
+	- made inner classes public	
+
+PDebug
+	- added DebugPaintCalls mode
+	- changed PDebug flags from public fields to properties
+
+PPaintContext
+	- added RenderQuality accessor
+
+PPickPath
+	- added AcceptsNode method
+
+PUtil
+	- added GreekTreshold property
+	- added ReadPen method
+	- added WritePen method
+	- added ReadBrush
+	- added WriteBrush
+	- added FrameworkSurrogateSelector
+	- added DelataRequiredToCenter method
+
+Piccolo.NET/Samples
+
+	- renamed/restructured all examples
+	- added CompositeExample class
+	- added GridExample class
+	- added GroupExample class
+	- added NodeCacheExample class
+	- added PositionPathActivityExample class
+
+PresentationTool
+	-fixed bug where example crashes if no slides loaded
+
+Piccolo.NET/Source/PiccoloX
+
+	- added PPathActivity class
+	- added PPositionPathActivity class
+	- added PNotification class
+	- added PNotificationCenter class
+	- added PComposite class
+	- added PNodeCache class
+	- added experimental POcclusionDetection class
+
+PForm
+	- added BeforeInitialize method
+
+PScrollableControl
+	- fixed problem w/ scrollable where scrolling would break if given a bad view
+
+PSelectionEventHandler
+	- numerous changes
+
+Piccolo.NET/Doc
+
+	- added Piccolo Help Setup
+	- added Piccolo.NET.chm

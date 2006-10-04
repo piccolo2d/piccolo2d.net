@@ -1,0 +1,519 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{40474732-7988-4B60-971D-4981C31CBA59}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "UMD.HCIL.PiccoloFeatures"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "UMD.HCIL.PiccoloFeatures"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = "piccolo-example.xml"
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "3"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "Piccolo"
+                    Project = "{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "PiccoloX"
+                    Project = "{E4079B36-6A5D-42C2-8F20-6C0DD8780192}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "ActivityExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ActivityExample.resx"
+                    DependentUpon = "ActivityExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AngleNodeExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AngleNodeExample.resx"
+                    DependentUpon = "AngleNodeExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BirdsEyeViewExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BirdsEyeViewExample.resx"
+                    DependentUpon = "BirdsEyeViewExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CameraExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CameraExample.resx"
+                    DependentUpon = "CameraExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CenterExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CenterExample.resx"
+                    DependentUpon = "CenterExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChartLabelExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChartLabelExample.resx"
+                    DependentUpon = "ChartLabelExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ClipExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ClipExample.resx"
+                    DependentUpon = "ClipExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CompositeExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CompositeExample.resx"
+                    DependentUpon = "CompositeExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ControlExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ControlExample.resx"
+                    DependentUpon = "ControlExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DynamicExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DynamicExample.resx"
+                    DependentUpon = "DynamicExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EventHandlerExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EventHandlerExample.resx"
+                    DependentUpon = "EventHandlerExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FullScreenExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FullScreenExample.resx"
+                    DependentUpon = "FullScreenExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GridExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GridExample.resx"
+                    DependentUpon = "GridExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GroupExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GroupExample.resx"
+                    DependentUpon = "GroupExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HandleExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HandleExample.resx"
+                    DependentUpon = "HandleExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HelloWorldExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HelloWorldExample.resx"
+                    DependentUpon = "HelloWorldExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HierarchyZoomExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HierarchyZoomExample.resx"
+                    DependentUpon = "HierarchyZoomExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KeyEventFocusExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KeyEventFocusExample.resx"
+                    DependentUpon = "KeyEventFocusExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LayoutExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LayoutExample.resx"
+                    DependentUpon = "LayoutExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LensExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LensExample.resx"
+                    DependentUpon = "LensExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NavigationExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NavigationExample.resx"
+                    DependentUpon = "NavigationExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NodeCacheExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NodeCacheExample.resx"
+                    DependentUpon = "NodeCacheExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NodeEventExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NodeEventExample.resx"
+                    DependentUpon = "NodeEventExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NodeExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NodeExample.resx"
+                    DependentUpon = "NodeExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NodeLinkExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NodeLinkExample.resx"
+                    DependentUpon = "NodeLinkExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PanToExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PanToExample.resx"
+                    DependentUpon = "PanToExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PathExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PathExample.resx"
+                    DependentUpon = "PathExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PiccoloFeatures.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PiccoloFeatures.resx"
+                    DependentUpon = "PiccoloFeatures.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PositionExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PositionExample.resx"
+                    DependentUpon = "PositionExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PositionPathActivityExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PositionPathActivityExample.resx"
+                    DependentUpon = "PositionPathActivityExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PulseExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PulseExample.resx"
+                    DependentUpon = "PulseExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ScrollingExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ScrollingExample.resx"
+                    DependentUpon = "ScrollingExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SelectionExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SelectionExample.resx"
+                    DependentUpon = "SelectionExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SquiggleExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SquiggleExample.resx"
+                    DependentUpon = "SquiggleExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "StickyExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "StickyExample.resx"
+                    DependentUpon = "StickyExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "StickyHandleLayerExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "StickyHandleLayerExample.resx"
+                    DependentUpon = "StickyHandleLayerExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThreeDimRectExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThreeDimRectExample.resx"
+                    DependentUpon = "ThreeDimRectExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TooltipExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TooltipExample.resx"
+                    DependentUpon = "TooltipExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TwoCanvasExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TwoCanvasExample.resx"
+                    DependentUpon = "TwoCanvasExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "WaitForActivitiesExample.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WaitForActivitiesExample.resx"
+                    DependentUpon = "WaitForActivitiesExample.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

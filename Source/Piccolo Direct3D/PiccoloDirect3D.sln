@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiccoloDirect3D", "Source\PiccoloDirect3D\PiccoloDirect3D.csproj", "{2DE00108-9998-433E-9346-7470DD4547B9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct3DTester", "Source\Direct3DTester\Direct3DTester.csproj", "{C3C42B5E-5118-4816-948F-2D0EC6771DCE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piccolo", "..\Piccolo\Piccolo.csproj", "{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiccoloX", "..\PiccoloX\PiccoloX.csproj", "{E4079B36-6A5D-42C2-8F20-6C0DD8780192}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2DE00108-9998-433E-9346-7470DD4547B9}.Debug.ActiveCfg = Debug|.NET
+		{2DE00108-9998-433E-9346-7470DD4547B9}.Debug.Build.0 = Debug|.NET
+		{2DE00108-9998-433E-9346-7470DD4547B9}.Release.ActiveCfg = Release|.NET
+		{2DE00108-9998-433E-9346-7470DD4547B9}.Release.Build.0 = Release|.NET
+		{C3C42B5E-5118-4816-948F-2D0EC6771DCE}.Debug.ActiveCfg = Debug|.NET
+		{C3C42B5E-5118-4816-948F-2D0EC6771DCE}.Debug.Build.0 = Debug|.NET
+		{C3C42B5E-5118-4816-948F-2D0EC6771DCE}.Release.ActiveCfg = Release|.NET
+		{C3C42B5E-5118-4816-948F-2D0EC6771DCE}.Release.Build.0 = Release|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Debug.ActiveCfg = Debug|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Debug.Build.0 = Debug|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Release.ActiveCfg = Release|.NET
+		{A1E844B2-72BC-469D-B68F-7DE6AF0BBCD9}.Release.Build.0 = Release|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Debug.ActiveCfg = Debug|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Debug.Build.0 = Debug|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Release.ActiveCfg = Release|.NET
+		{E4079B36-6A5D-42C2-8F20-6C0DD8780192}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
