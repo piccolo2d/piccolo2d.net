@@ -151,8 +151,8 @@ namespace UMD.HCIL.Piccolo.Util {
 		/// always be picked first, use this method to find the covered child.
 		/// </remarks>
 		/// <value>
-		/// The next node that will be picked after the current node, or null when
-		/// no more nodes will be picked.
+		/// The next node that will be picked after the current node, or the camera when
+		/// no more visual nodes will be picked.
 		/// </value>
 		public virtual PNode NextPickedNode {
 			get {
